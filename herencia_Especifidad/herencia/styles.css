@@ -1,0 +1,28 @@
+ul
+{
+    color: lawngreen;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.heren1
+{
+    color: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heren2
+{
+    font-family: inherit;
+}
+
+main
+{
+    color: darkred;
+}
+
+.heren3
+{
+    color: blue;
+    font-family: monospace;
+}
