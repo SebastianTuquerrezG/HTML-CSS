@@ -1,0 +1,31 @@
+*{
+    color: white;
+    background-color: black;
+}
+.parrafos
+{
+    color: greenyellow;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: purple;
+}
+
+h1 + p
+{
+    color: blue;
+}
+
+h3 ~ p
+{
+    color: red ;
+}
+
+div > p
+{
+    color: lawngreen;
+}
+
+div h4
+{
+    color: rgb(32, 178, 171);
+}
