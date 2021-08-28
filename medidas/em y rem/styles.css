@@ -1,0 +1,38 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    color: red;
+}
+.medida-em {
+    font-size: 1em;
+}
+
+.medida-em div {
+    font-size: 2em;
+}
+
+article p {
+    font-size: 1.6rem;
+}
+
+.medida-rem div {
+    font-size: 2em;
+}
