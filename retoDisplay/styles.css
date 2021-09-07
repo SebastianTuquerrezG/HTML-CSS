@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    height: 70px;
+}
+.imgLogo{
+    width: 80px;
+    height: 50px;
+    margin: 10px 10px;
+}
+.navHeader, .navList li {
+    display: inline-block;
+    margin: 5px;
+}
+.navHeader {
+    position: absolute;
+    right: 0;
+    margin: 25px;
+}
+.navList {
+    list-style: none;
+}
