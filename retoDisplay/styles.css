@@ -3,13 +3,15 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    background-color: black;
+}
 header {
     background-color: aqua;
     height: 70px;
 }
 .imgLogo{
-    width: 80px;
+    width: 100px;
     height: 50px;
     margin: 10px 10px;
 }
@@ -24,4 +26,83 @@ header {
 }
 .navList {
     list-style: none;
+}
+.main {
+    background-color: brown;
+}
+.listElements {
+    list-style: none;
+}
+.section1 {
+    width: 30vw;
+    display: inline-block;
+    height: 80vh;
+}
+.Elements {
+    background-color: aquamarine;
+    margin: 15px;
+    text-align:initial;
+    padding: 25px 0 25px;
+    width: 17vw;
+    height: 16.5vh;
+}
+.section2{
+    display: inline-block;
+    height: 80vh;
+    position: absolute;
+    left: 20vw;
+    width: 80vw;
+    padding: 1rem;
+    background-color: darkblue;
+}
+footer .footer-two
+{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: moccasin;
+    border-top: 1px solid goldenrod;
+}
+
+footer div ul
+{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left
+{
+    justify-self: left;
+}
+
+footer .footer-right
+{
+    justify-self: right;
+}
+
+footer div ul li a
+{
+    margin: 10px;
+    color: black;
+}
+
+footer .country
+{
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    align-items: center;
+    font-size: 13px;
+    background-color: moccasin;
+    border-bottom: 1px solid goldenrod;
+    margin-bottom: 30px;
 }
