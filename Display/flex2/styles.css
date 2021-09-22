@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: black;
+    height: 100vh;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 9.5rem;
+    height: 99vh;
+}
+.box1 {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.box2 {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.box3 {
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box4 {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box5 {
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box6 {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.box7 {
+    background-color: mediumblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box8 {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content:last baseline;
+}
+
+.boxita {
+    width: 7rem;
+    height: 8rem;
+    background-color: azure;
+    border: 0.3rem solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
